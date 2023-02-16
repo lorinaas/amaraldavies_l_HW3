@@ -1,0 +1,44 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hidden { display: none; }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: red;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+#marvel-logo {
+    width: 300px;
+    padding: 10px 0;
+}
+
+/* footer rules here */
+
+footer {
+   color:white;
+   padding: 20px 0px 20px 0px;
+   text-align:center; 
+}
+
+.sticky_footer {
+    background-color:rgb(40, 37, 37);
+    height: 50px;
+}
+
